@@ -1,7 +1,7 @@
 \documentclass[a4paper]{article}
 \usepackage{mathtools}
 \title{Assignment 2: RSA and DH Algorithms}
-\author{\author{Abdullah Meraj \and Yazeed Alkhalaf \and Affan Mohammed \and Bara Allam}}
+\author{Abdullah Meraj \and Yazeed Alkhalaf \and Affan Mohammed \and Bara Allam}
 \date{\today}
 \begin{document}
 
@@ -60,7 +60,9 @@
           \textbf{Question: }Fahd wants to send a plaintext message: “SECRET” to Ahmed.
           He converts the plaintext into numeric representation using a predetermined
           mapping (A=1, B=2, C=3 and so on). Then, he encrypts the numeric representation
-          of the message using Ahmed’s public key (e, n). \textbf{Answer: } S = 19, E =
+          of the message using Ahmed’s public key (e, n). \newline
+
+          \textbf{Answer: } S = 19, E =
           5, C = 3, R = 18, T = 20 \ n = 187, e = 13 \
           \[ C = M^e \mod n \]
           \[ C = M^{13} \mod 187\]
@@ -72,7 +74,8 @@
           "SECRET" is encrypted as "83 37 148 35 37 80"
 
           \subsubsection*{3. Decryption}
-          \textbf{Question: }Ahmed receives another encrypted message from Fahd: “94 37 133 133 53”
+          \textbf{Question: }Ahmed receives another encrypted message from Fahd: “94 37 133 133 53” \newline
+
           \textbf{Answer: }
           Here d = 37, n = 187
           \[ M = C^d \mod n \]
